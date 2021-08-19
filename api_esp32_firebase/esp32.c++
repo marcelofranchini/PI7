@@ -2,12 +2,12 @@
 #include <FirebaseESP32.h>
 
 
-const char* usuario = "casa claro 2.4g";
-const char* senha = "marcelo99";
+const char* usuario = "";
+const char* senha = "";
 bool statusConexao = false;
 
-const char* host = "https://esp32-1ccd5-default-rtdb.firebaseio.com/";
-const char* token = "SMhuo6aj26rdhqYG9wINNICOEKjCzqpttq5xb4gy";
+const char* host = "";
+const char* token = "";
 
 FirebaseData minhaBase;
 

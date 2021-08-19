@@ -3,16 +3,7 @@ import {Text, View, Button} from 'react-native';
 
 import firebase from 'firebase';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyAiNB-15CRlkvtwgsZBx5cGo4ZOL9jqrf8',
-  authDomain: 'esp32-1ccd5.firebaseapp.com',
-  databaseURL: 'https://esp32-1ccd5-default-rtdb.firebaseio.com',
-  projectId: 'esp32-1ccd5',
-  storageBucket: 'esp32-1ccd5.appspot.com',
-  messagingSenderId: '184172303710',
-  appId: '1:184172303710:web:1ac6f9a1ffbd0c5fc6abcf',
-  measurementId: 'G-4J23QBR6PT',
-};
+const firebaseConfig = {};
 // Initialize Firebase
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
